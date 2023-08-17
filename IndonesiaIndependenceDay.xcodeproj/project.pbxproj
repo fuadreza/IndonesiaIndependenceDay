@@ -14,6 +14,7 @@
 		A71D03162A8DCDA8002FC9F0 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71D03152A8DCDA8002FC9F0 /* LandmarksTests.swift */; };
 		A71D03202A8DCDA8002FC9F0 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71D031F2A8DCDA8002FC9F0 /* LandmarksUITests.swift */; };
 		A71D03222A8DCDA8002FC9F0 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71D03212A8DCDA8002FC9F0 /* LandmarksUITestsLaunchTests.swift */; };
+		A71D03302A8DD88D002FC9F0 /* redhatdisplay-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A71D032F2A8DD88D002FC9F0 /* redhatdisplay-regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A71D03012A8DCDA7002FC9F0 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71D03012A8DCDA7002FC9F0 /* IndonesiaIndependenceDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndonesiaIndependenceDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71D03042A8DCDA7002FC9F0 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		A71D03062A8DCDA7002FC9F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A71D03082A8DCDA8002FC9F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A71D030B2A8DCDA8002FC9F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A71D03112A8DCDA8002FC9F0 /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71D03112A8DCDA8002FC9F0 /* IndonesiaIndependenceDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndonesiaIndependenceDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71D03152A8DCDA8002FC9F0 /* LandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksTests.swift; sourceTree = "<group>"; };
-		A71D031B2A8DCDA8002FC9F0 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71D031B2A8DCDA8002FC9F0 /* IndonesiaIndependenceDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndonesiaIndependenceDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71D031F2A8DCDA8002FC9F0 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		A71D03212A8DCDA8002FC9F0 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A71D032F2A8DD88D002FC9F0 /* redhatdisplay-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "redhatdisplay-regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +76,9 @@
 		A71D02F82A8DCDA7002FC9F0 = {
 			isa = PBXGroup;
 			children = (
-				A71D03032A8DCDA7002FC9F0 /* Landmarks */,
-				A71D03142A8DCDA8002FC9F0 /* LandmarksTests */,
-				A71D031E2A8DCDA8002FC9F0 /* LandmarksUITests */,
+				A71D03032A8DCDA7002FC9F0 /* IndonesiaIndependenceDay */,
+				A71D03142A8DCDA8002FC9F0 /* IndonesiaIndependenceDayTests */,
+				A71D031E2A8DCDA8002FC9F0 /* IndonesiaIndependenceDayUITests */,
 				A71D03022A8DCDA7002FC9F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +86,23 @@
 		A71D03022A8DCDA7002FC9F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A71D03012A8DCDA7002FC9F0 /* Landmarks.app */,
-				A71D03112A8DCDA8002FC9F0 /* LandmarksTests.xctest */,
-				A71D031B2A8DCDA8002FC9F0 /* LandmarksUITests.xctest */,
+				A71D03012A8DCDA7002FC9F0 /* IndonesiaIndependenceDay.app */,
+				A71D03112A8DCDA8002FC9F0 /* IndonesiaIndependenceDayTests.xctest */,
+				A71D031B2A8DCDA8002FC9F0 /* IndonesiaIndependenceDayUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A71D03032A8DCDA7002FC9F0 /* Landmarks */ = {
+		A71D03032A8DCDA7002FC9F0 /* IndonesiaIndependenceDay */ = {
 			isa = PBXGroup;
 			children = (
+				A71D032E2A8DD871002FC9F0 /* Fonts */,
 				A71D03042A8DCDA7002FC9F0 /* LandmarksApp.swift */,
 				A71D03062A8DCDA7002FC9F0 /* ContentView.swift */,
 				A71D03082A8DCDA8002FC9F0 /* Assets.xcassets */,
 				A71D030A2A8DCDA8002FC9F0 /* Preview Content */,
 			);
-			path = Landmarks;
+			path = IndonesiaIndependenceDay;
 			sourceTree = "<group>";
 		};
 		A71D030A2A8DCDA8002FC9F0 /* Preview Content */ = {
@@ -110,29 +113,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A71D03142A8DCDA8002FC9F0 /* LandmarksTests */ = {
+		A71D03142A8DCDA8002FC9F0 /* IndonesiaIndependenceDayTests */ = {
 			isa = PBXGroup;
 			children = (
 				A71D03152A8DCDA8002FC9F0 /* LandmarksTests.swift */,
 			);
-			path = LandmarksTests;
+			path = IndonesiaIndependenceDayTests;
 			sourceTree = "<group>";
 		};
-		A71D031E2A8DCDA8002FC9F0 /* LandmarksUITests */ = {
+		A71D031E2A8DCDA8002FC9F0 /* IndonesiaIndependenceDayUITests */ = {
 			isa = PBXGroup;
 			children = (
 				A71D031F2A8DCDA8002FC9F0 /* LandmarksUITests.swift */,
 				A71D03212A8DCDA8002FC9F0 /* LandmarksUITestsLaunchTests.swift */,
 			);
-			path = LandmarksUITests;
+			path = IndonesiaIndependenceDayUITests;
+			sourceTree = "<group>";
+		};
+		A71D032E2A8DD871002FC9F0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A71D032F2A8DD88D002FC9F0 /* redhatdisplay-regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A71D03002A8DCDA7002FC9F0 /* Landmarks */ = {
+		A71D03002A8DCDA7002FC9F0 /* IndonesiaIndependenceDay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A71D03252A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "Landmarks" */;
+			buildConfigurationList = A71D03252A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "IndonesiaIndependenceDay" */;
 			buildPhases = (
 				A71D02FD2A8DCDA7002FC9F0 /* Sources */,
 				A71D02FE2A8DCDA7002FC9F0 /* Frameworks */,
@@ -142,14 +153,14 @@
 			);
 			dependencies = (
 			);
-			name = Landmarks;
+			name = IndonesiaIndependenceDay;
 			productName = Landmarks;
-			productReference = A71D03012A8DCDA7002FC9F0 /* Landmarks.app */;
+			productReference = A71D03012A8DCDA7002FC9F0 /* IndonesiaIndependenceDay.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A71D03102A8DCDA8002FC9F0 /* LandmarksTests */ = {
+		A71D03102A8DCDA8002FC9F0 /* IndonesiaIndependenceDayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A71D03282A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "LandmarksTests" */;
+			buildConfigurationList = A71D03282A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "IndonesiaIndependenceDayTests" */;
 			buildPhases = (
 				A71D030D2A8DCDA8002FC9F0 /* Sources */,
 				A71D030E2A8DCDA8002FC9F0 /* Frameworks */,
@@ -160,14 +171,14 @@
 			dependencies = (
 				A71D03132A8DCDA8002FC9F0 /* PBXTargetDependency */,
 			);
-			name = LandmarksTests;
+			name = IndonesiaIndependenceDayTests;
 			productName = LandmarksTests;
-			productReference = A71D03112A8DCDA8002FC9F0 /* LandmarksTests.xctest */;
+			productReference = A71D03112A8DCDA8002FC9F0 /* IndonesiaIndependenceDayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A71D031A2A8DCDA8002FC9F0 /* LandmarksUITests */ = {
+		A71D031A2A8DCDA8002FC9F0 /* IndonesiaIndependenceDayUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A71D032B2A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "LandmarksUITests" */;
+			buildConfigurationList = A71D032B2A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "IndonesiaIndependenceDayUITests" */;
 			buildPhases = (
 				A71D03172A8DCDA8002FC9F0 /* Sources */,
 				A71D03182A8DCDA8002FC9F0 /* Frameworks */,
@@ -178,9 +189,9 @@
 			dependencies = (
 				A71D031D2A8DCDA8002FC9F0 /* PBXTargetDependency */,
 			);
-			name = LandmarksUITests;
+			name = IndonesiaIndependenceDayUITests;
 			productName = LandmarksUITests;
-			productReference = A71D031B2A8DCDA8002FC9F0 /* LandmarksUITests.xctest */;
+			productReference = A71D031B2A8DCDA8002FC9F0 /* IndonesiaIndependenceDayUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A71D02FC2A8DCDA7002FC9F0 /* Build configuration list for PBXProject "Landmarks" */;
+			buildConfigurationList = A71D02FC2A8DCDA7002FC9F0 /* Build configuration list for PBXProject "IndonesiaIndependenceDay" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +230,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A71D03002A8DCDA7002FC9F0 /* Landmarks */,
-				A71D03102A8DCDA8002FC9F0 /* LandmarksTests */,
-				A71D031A2A8DCDA8002FC9F0 /* LandmarksUITests */,
+				A71D03002A8DCDA7002FC9F0 /* IndonesiaIndependenceDay */,
+				A71D03102A8DCDA8002FC9F0 /* IndonesiaIndependenceDayTests */,
+				A71D031A2A8DCDA8002FC9F0 /* IndonesiaIndependenceDayUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A71D030C2A8DCDA8002FC9F0 /* Preview Assets.xcassets in Resources */,
+				A71D03302A8DD88D002FC9F0 /* redhatdisplay-regular.ttf in Resources */,
 				A71D03092A8DCDA8002FC9F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,12 +296,12 @@
 /* Begin PBXTargetDependency section */
 		A71D03132A8DCDA8002FC9F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A71D03002A8DCDA7002FC9F0 /* Landmarks */;
+			target = A71D03002A8DCDA7002FC9F0 /* IndonesiaIndependenceDay */;
 			targetProxy = A71D03122A8DCDA8002FC9F0 /* PBXContainerItemProxy */;
 		};
 		A71D031D2A8DCDA8002FC9F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A71D03002A8DCDA7002FC9F0 /* Landmarks */;
+			target = A71D03002A8DCDA7002FC9F0 /* IndonesiaIndependenceDay */;
 			targetProxy = A71D031C2A8DCDA8002FC9F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,7 +492,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmarks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndonesiaIndependenceDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IndonesiaIndependenceDay";
 			};
 			name = Debug;
 		};
@@ -499,7 +511,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmarks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndonesiaIndependenceDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IndonesiaIndependenceDay";
 			};
 			name = Release;
 		};
@@ -540,7 +552,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A71D02FC2A8DCDA7002FC9F0 /* Build configuration list for PBXProject "Landmarks" */ = {
+		A71D02FC2A8DCDA7002FC9F0 /* Build configuration list for PBXProject "IndonesiaIndependenceDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A71D03232A8DCDA8002FC9F0 /* Debug */,
@@ -549,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A71D03252A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
+		A71D03252A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "IndonesiaIndependenceDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A71D03262A8DCDA8002FC9F0 /* Debug */,
@@ -558,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A71D03282A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "LandmarksTests" */ = {
+		A71D03282A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "IndonesiaIndependenceDayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A71D03292A8DCDA8002FC9F0 /* Debug */,
@@ -567,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A71D032B2A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "LandmarksUITests" */ = {
+		A71D032B2A8DCDA8002FC9F0 /* Build configuration list for PBXNativeTarget "IndonesiaIndependenceDayUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A71D032C2A8DCDA8002FC9F0 /* Debug */,
